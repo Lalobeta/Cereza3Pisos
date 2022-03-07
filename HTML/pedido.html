@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Pedido</title>
+</head>
+<body>
+    <img src="./assets/img/Cereza3p.png" alt="Cereza 3 pisos" width="400px">
+    <h2>Por favor sientase libre de elegir</h2> 
+    <br>
+    <br>
+
+   
+    <input type="number" id="pastel1" name="pastel1" value="0"><label for="numero1"> Explosion de Sabores</label><br><br>
+    <input type="number" id="pastel2" name="pastel2" value="0"><label for="numero1"> Chocolate Pasion</label><br><br>
+    <input type="number" id="pastel2" name="pastel2" value="0"><label for="numero1"> Fresa 3 pisos</label><br><br>
+    <input type="number" id="pastel4" name="pastel4" value="0"><label for="numero1"> Personalizado desde 399 Pesos</label><br><br>
+
+    <H3>Personalizado</H3> 
+    <label for="Base">Elige tu base favorita</label><br>
+    <input list="Base">
+    <datalist id="Base">
+        <option value="Vainilla">
+        <option value="Fresa">
+        <option value="Chocolate">
+        <option value="Mango">
+        <option value="Coco">
+    </datalist>
+    <br> <br>
+    <label for="Cubierta">Elige tu cubierta favorita</label><br>
+    <input list="Cubierta">
+    <datalist id="Cubierta">
+        <option value="Vainilla">
+        <option value="Fresa">
+        <option value="Chocolate">
+        <option value="Mango">
+        <option value="Coco">
+    </datalist>
+    <br> <br>
+    <label for="Relleno">Elige tu relleno favorito</label><br>
+    <input list="Relleno">
+    <datalist id="Relleno">
+        <option value="Vainilla">
+        <option value="Fresa">
+        <option value="Chocolate">
+        <option value="Mango">
+        <option value="Coco">
+    </datalist>
+    <br> <br>
+    <label for="Topping">Elige tu topping favorito</label><br>
+    <input list="Topping">
+    <datalist id="Topping">
+        <option value="Frutos Rojos + $60">
+        <option value="Fresa + $50">
+        <option value="Chocolate + $30">
+        <option value="Mango + $40">
+        <option value="Coco + $20">
+        <option value="Helado + $60">
+        <option value="Sin Topping">
+
+    </datalist>
+    <br>
+    <h3>Peticiones Especiales</h3>
+    <input type="checkbox" id="articulo1" name="articulo1" value="Cebolla">
+    <label for="articulo1">Velas sencillas + $20 Pesos</label><br>
+    <input type="checkbox" id="articulo2" name="articulo2" value="Cilantro">
+    <label for="articulo2">Bengalas + $40 Pesos</label><br>
+    <input type="checkbox" id="articulo3" name="articulo3" value="Salsa">
+    <label for="articulo3">Paquete de desechables + $30 Pesos</label><br><br>
+
+    <p> ¿Deseas agregar un mensaje? + 20 pesos</p>
+    <input type="radio" id="sin" name="mensaje" value="Sin mensaje">
+    <label for="sin">Sin Mensaje</label>
+    <br>
+    <input type="radio" id="con" name="mensaje" value="Con Mensaje">
+    <input type="text" id="conMensaje" name="Mensaje"> 
+    <br> <br> <br>
+
+
+
+   <a href="./index.html"> <input  type="button" id="button" name="button" value="Cerrar Pedido" onclick="alert('Su Pedido fue creado con exito')"></a>
+</body>
+</html>
